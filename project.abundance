@@ -7,7 +7,41 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.2020265991133629,
+            "y": 0.5093945720250522,
+            "uniqueID": 1744625566022,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.13679544015199493,
+            "y": 0.49060542797494777,
+            "uniqueID": 1744625701395,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "dsiplay back plate.svg",
+            "type": "SVG",
+            "SVGwidth": 10
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.09879670677644078,
+            "y": 0.4822546972860125,
+            "uniqueID": 1744625791127,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": null,
+            "type": null,
+            "SVGwidth": 10
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,

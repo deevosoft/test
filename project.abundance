@@ -11,17 +11,22 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.2020265991133629,
-            "y": 0.5093945720250522,
+            "x": 0.22609246358454715,
+            "y": 0.7306889352818372,
             "uniqueID": 1744625566022,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": ""
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.13679544015199493,
-            "y": 0.49060542797494777,
+            "x": 0.22102596580113998,
+            "y": 0.49478079331941544,
             "uniqueID": 1744625701395,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -32,17 +37,25 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.09879670677644078,
-            "y": 0.4822546972860125,
+            "x": 0.1032298923369221,
+            "y": 0.55741127348643,
             "uniqueID": 1744625791127,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": null,
-            "type": null,
+            "fileName": "shelf.svg",
+            "type": "SVG",
             "SVGwidth": 10
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744625791127,
+            "ap2ID": 1744625566022
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
